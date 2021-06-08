@@ -1,24 +1,26 @@
-name: Test Installing Dependencies
+name: Pass Tests
 
-on:
-  workflow_run:
-    workflows: ["Publish Package"]
-    types: [completed]
+on: push
 
 jobs:
-  on-success:
+  tests:
+    if: false
     runs-on: ubuntu-latest
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: Install production dependencies via npm
+      - name: Install production and development dependencies
+        id: install
         run: |
-          npm install --only=prod
+          npm install
+      - name: Run tests
+        id: tests
+        run: |
+          npm test
       - uses: act10ns/slack@v1
         with:
           status: ${{ job.status }}

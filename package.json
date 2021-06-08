@@ -22,7 +22,9 @@
     "test": "./test"
   },
   "types": "./docs/types",
-  "scripts": {},
+  "scripts": {
+    "test": "tape $(grep -irl --include=\\*.js \"tape\" ./test)"
+  },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
     "type": "git",
