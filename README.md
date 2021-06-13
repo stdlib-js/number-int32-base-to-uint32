@@ -20,6 +20,8 @@ limitations under the License.
 
 # toUint32
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Convert a signed 32-bit integer to an unsigned 32-bit integer.
 
 <section class="installation">
@@ -124,6 +126,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/number-int32-base-to-uint32.svg
+[npm-url]: https://npmjs.org/package/@stdlib/number-int32-base-to-uint32
+
+[test-image]: https://github.com/stdlib-js/number-int32-base-to-uint32/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/number-int32-base-to-uint32/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/number-int32-base-to-uint32/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/number-int32-base-to-uint32?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/number-int32-base-to-uint32
+[dependencies-url]: https://david-dm.org/stdlib-js/number-int32-base-to-uint32/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 

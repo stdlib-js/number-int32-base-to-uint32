@@ -1,10 +1,10 @@
-name: Pass Tests
+name: build
 
-on: push
+on:
+  workflow_dispatch:
 
 jobs:
-  tests:
-    if: false
+  test:
     runs-on: ubuntu-latest
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

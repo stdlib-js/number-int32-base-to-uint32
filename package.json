@@ -23,7 +23,9 @@
   },
   "types": "./docs/types",
   "scripts": {
-    "test": "tape $(grep -irl --include=\\*.js \"tape\" ./test)"
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
   },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
@@ -41,7 +43,9 @@
     "@stdlib/math-base-special-round": "^0.0.x",
     "@stdlib/number-float64-base-to-int32": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby"
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
