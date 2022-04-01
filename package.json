@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/number-int32-base-to-uint32",
+  "version": "0.0.0",
+  "description": "Convert a signed 32-bit integer to an unsigned 32-bit integer.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-int32-base-to-uint32.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "base",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "types",
+    "type",
+    "cast",
+    "convert",
+    "uint32",
+    "int32",
+    "integer",
+    "int",
+    "unsigned",
+    "signed",
+    "to",
+    "bits",
+    "number"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
