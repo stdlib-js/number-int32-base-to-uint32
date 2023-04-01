@@ -24,14 +24,30 @@ limitations under the License.
 
 > Convert a signed 32-bit integer to an unsigned 32-bit integer.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-int32-base-to-uint32
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import int32ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-int32-base-to-uint32@deno/mod.js';
+var int32ToUint32 = require( '@stdlib/number-int32-base-to-uint32' );
 ```
 
 #### int32ToUint32( x )
@@ -39,7 +55,7 @@ import int32ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-int32-ba
 Converts a signed 32-bit integer to an unsigned 32-bit integer.
 
 ```javascript
-import float64ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-int32@deno/mod.js';
+var float64ToInt32 = require( '@stdlib/number-float64-base-to-int32' );
 
 var y = int32ToUint32( float64ToInt32( -1 ) );
 // returns 4294967295
@@ -59,10 +75,10 @@ y = int32ToUint32( float64ToInt32( 3 ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import MAX_INT32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int32-max@deno/mod.js';
-import float64ToInt32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-int32@deno/mod.js';
-import int32ToUint32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-int32-base-to-uint32@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var MAX_INT32 = require( '@stdlib/constants-int32-max' );
+var float64ToInt32 = require( '@stdlib/number-float64-base-to-int32' );
+var int32ToUint32 = require( '@stdlib/number-int32-base-to-uint32' );
 
 var uint32;
 var int32;
@@ -106,7 +122,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -150,7 +166,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
