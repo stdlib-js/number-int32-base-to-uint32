@@ -38,12 +38,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/constants-int32-max": "^0.0.7",
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-round": "^0.0.7",
-    "@stdlib/number-float64-base-to-int32": "^0.0.7",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/constants-int32-max": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-round": "^0.1.0",
+    "@stdlib/number-float64-base-to-int32": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
