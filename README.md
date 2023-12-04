@@ -120,6 +120,12 @@ for ( i = 0; i < 100; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/number-uint32/base/to-int32`][@stdlib/number/uint32/base/to-int32]</span><span class="delimiter">: </span><span class="description">convert an unsigned 32-bit integer to a signed 32-bit integer.</span>
+
 </section>
 
 <!-- /.related -->
@@ -192,6 +198,12 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/number-int32-base-to-uint32/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/number-int32-base-to-uint32/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/number/uint32/base/to-int32]: https://github.com/stdlib-js/number-uint32-base-to-int32
+
+<!-- </related-links> -->
 
 </section>
 
